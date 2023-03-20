@@ -12,3 +12,5 @@ RUN chmod 777 /usr/local/bin/entrypoint.sh
 # ENTRYPOINT ["/entrypoint.sh"]
 # ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 ENTRYPOINT ["sh","/usr/local/bin/entrypoint.sh"]
+
+RUN docker images
