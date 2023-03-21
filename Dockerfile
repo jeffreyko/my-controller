@@ -10,6 +10,6 @@ COPY entrypoint.sh /entrypoint.sh
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
 # ENTRYPOINT ["/entrypoint.sh"]
-ENTRYPOINT ["sh", "/entrypoint.sh"]
+ENTRYPOINT ["sh", "entrypoint.sh"]
 # ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 # ENTRYPOINT ["sh","/usr/local/bin/entrypoint.sh"]
